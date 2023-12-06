@@ -112,17 +112,18 @@ nav a.active{
 }
 
 .hot-content{
-    padding-top: 115px;
     text-align: center;
-    margin-left: 400px auto;
+    margin-left: 400px ;
+    padding-top: 120px;
     margin-right: 300px;
     margin-bottom:50px ;
     margin: 0 auto;
+    margin-top: 0;
 }
 
 .h1-1{
     margin-bottom: 50px;
-    font-size: 80px;
+    font-size: 60px;
     font-family: 'Courier New', Courier, monospace;
     text-decoration: underline;
     color: white;
@@ -169,7 +170,9 @@ nav a.active{
 }
 
 .main{
-    padding-top: 200px;
+    padding-top: 150px;
+    margin-bottom: -150px;
+    padding-bottom: 0;
 }
 
 .cup{
@@ -178,8 +181,9 @@ nav a.active{
     border-radius: 50%;
     border-bottom: 7px solid #949ca9;
     margin: 0 auto -20px;
+    margin-right: 950px;
     position: relative;
-    background: linear-gradient(2deg, #9fa8b55a 10%, transparent 50%);
+    background: linear-gradient(2deg, #9fa8b55a 10%, transparent 5%);
 }
 
 .cup::before, .cup::after{
@@ -308,6 +312,7 @@ nav a.active{
     border-radius: 50%;
     border: 7px solid #9fa8b5;
     border-top: none;
+    margin-right: 933px;
     position: relative;
     z-index: -2;
     background: #9fa8b5;
@@ -330,4 +335,18 @@ nav a.active{
     100%{
         transform: translate(-50%, 0) rotate(2deg);
     }
+}
+
+
+
+.menu-header{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 150px;
+    color: white;
+    margin: 0 auto;
+    position: relative;
+    margin-right: 600px;
+    margin-left: 650px;
+    word-break: keep-all;
+    transform: translate(10%, -80%);
 }
